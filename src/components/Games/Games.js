@@ -20,6 +20,16 @@ const data = require('../../Data/data.json');
 const Games = () => {
 
     return (
+        <>
+            <div className="search">
+                <input
+                    className="search"
+                    type="search"
+                    placeholder="Search..."
+
+                />
+            </div>
+        
         <div className="game-container">
 
             {Object.keys(data).map((item, i) => {
@@ -58,6 +68,7 @@ const Games = () => {
             })}
 
         </div>
+        </>
     );
 }
 
