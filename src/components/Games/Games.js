@@ -39,6 +39,7 @@ const Games = () => {
                             } >{data[item].score} </span>
                         </div>
                         <div className="game-overview">
+                        <h2>{data[item].title}</h2>
                             <h2>Score{" "}
                                 <span className={
                                     `tag ${setVoteClass(data[item].score)}`
