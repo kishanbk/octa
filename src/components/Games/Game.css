@@ -66,7 +66,6 @@
 .tag.red{
     color: red;
 }
-
 .search{
     background-color: transparent;
     border-radius: 50px;
@@ -79,4 +78,8 @@
   }
   .search :focus{
     outline: 0;
+  }
+
+  .clearboth{
+      clear: both;
   }
